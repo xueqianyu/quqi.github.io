@@ -1,0 +1,68 @@
+# Header
+menu:
+  首页: /
+  归档: /archives
+  TA的: http://47.104.196.18/wxb/
+
+rss: /atom.xml
+nav: right
+mobile_nav: right
+
+
+
+# Content
+excerpt_link: 阅读全文
+fancybox: true
+
+# Sidebar
+sidebar: right
+widgets:
+- userinfo
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
+# Background
+# background_image: /images/bg.jpeg
+background_title: 
+
+#Userinfo
+author: 小菜QUQI
+slogan: 迷迷糊糊、能吃能睡~无才无能~奈何只倾慕猿君。
+# avatar: /images/code-title.png
+avatar_title: 
+
+# Article code panel: cloud doorframe mac
+highlightPanel: doorframe
+
+#Gitment
+gitment:
+  owner: 
+  repo: 
+  client_id: 
+  client_secret: 
+
+# Miscellaneous
+google_analytics:
+gauges_analytics:
+google_site_verification: 
+baidu_site_verification: 
+favicon: http://47.104.196.18/image/quqi.ico
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
+keywords:
+
