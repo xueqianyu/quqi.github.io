@@ -3,8 +3,7 @@
   overflow: hidden;
   border-radius: 4px;
   margin: 1.6em 0;
-  padding-top: 38px;
-  background: #21252B;
+  background: #505c69;
 }
 .article-content .highlight::-webkit-scrollbar {
   height: 10px;
@@ -19,87 +18,7 @@
   border-radius: 10px;
   background-color: #3E4451;
 }
-.article-content-cloud .highlight-box::before,
-.article-content-mac .highlight-box::before {
-  content: attr(data-rel);
-  height: 38px;
-  line-height: 38px;
-  color: #fff;
-  font-size: 14px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 0px 75px;
-}
-.article-content-mac .highlight-box::before {
-  padding: 0px 90px;
-}
-.article-content-cloud .highlight-box::after{
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 4px;
-  width: 46px;
-  height: 19px;
-  background-image: url('./images/icons/css_cloud.png')
-}
-.article-content-mac .highlight-box::after{
-  content: " ";
-  position: absolute;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  background: #FF5454;
-  width: 12px;
-  height: 12px;
-  top: 0;
-  left: 20px;
-  margin-top: 13px;
-  -webkit-box-shadow: 20px 0px #FFBF00, 40px 0px #00D22E;
-  box-shadow: 20px 0px #FFBF00, 40px 0px #00D22E;
-  z-index: 3;
-}
-.article-content-doorframe .highlight-box {
-  background-color: #282C34;
-  border-radius: 0;
-  border: 1px solid #be7e4a;
-  box-shadow: 3px 0 #282C34, -3px 0 #282C34, 0px -3px #282C34, 0px 3px #282C34;
-}
-.article-content-doorframe .highlight-box::before,
-.article-content-doorframe .highlight-box::after,
-.article-content-doorframe .highlight-box .highlight::before,
-.article-content-doorframe .highlight-box .highlight::after {
-  content: "";
-  display: block;
-  position: absolute;
-  background-image: url('../images/icons/css_doorframe.png');
-  background-size: auto 44px;
-  width: 44px;
-  height: 44px;
-  background-repeat: no-repeat;
-}
-.article-content-doorframe .highlight-box::before {
-  top: 0;
-  left: 0;
-  transform:rotate(90deg);
-}
-.article-content-doorframe .highlight-box::after {
-  top: 0;
-  right: 0;
-  transform:rotate(180deg);
-}
 
-.article-content-doorframe .highlight-box .highlight::before {
-  bottom: 0;
-  left: 0;
-}
-.article-content-doorframe .highlight-box .highlight::after {
-  bottom: 0;
-  right: 0;
-  transform:rotate(-90deg);
-}
-.article-content-doorframe .highlight-box .highlight {
-  padding-bottom: 53px !important;
-}
 .article-content .highlight {
   padding: 15px 20px;
 }

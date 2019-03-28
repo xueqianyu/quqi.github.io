@@ -20,7 +20,7 @@ widgets:
 - userinfo
 - category
 - tag
-- tagcloud
+#- tagcloud
 - archive
 - recent_posts
 
