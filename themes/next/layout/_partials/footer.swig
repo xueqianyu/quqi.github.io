@@ -43,5 +43,9 @@
 {% if theme.footer.custom_text %}
   <div class="footer-custom">{#
   #}{{ theme.footer.custom_text }}{#
-#}</div>
+#}
+</div>
 {% endif %}
+<br>
+<script async src="//47.104.196.18/quqipv.js"></script>
+<span>阁下是第<span id="quqiwebsitepv"></span>个访客</span>

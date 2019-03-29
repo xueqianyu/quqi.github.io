@@ -265,6 +265,8 @@
       </header>
     {% endif %}
 
+	<br>
+	<span>本文阅读量<span id="quqipagepv"></span>次</span>
     {#################}
     {### POST BODY ###}
     {#################}
