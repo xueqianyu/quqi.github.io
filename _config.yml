@@ -78,4 +78,6 @@ theme: antiquity
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+ type: git
+ repo: 
+  github: git@github.com:xueqianyu/quqi.github.io.git
