@@ -80,4 +80,4 @@ theme: antiquity
 deploy:
  type: git
  repo: 
-  github: git@github.com:xueqianyu/quqi.github.io.git
+  github: git@github.com:xueqianyu/xueqianyu.github.io.git
